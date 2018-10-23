@@ -1,0 +1,129 @@
+/***** BASE STYLES *****/
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 1200px;
+    padding: 0 25px;
+}
+/***** HEADER *****/
+header .half-width {
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+h1 {
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 40px 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
+}
+h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    padding: 40px 0;
+
+}
+nav ul{
+    margin: 0 auto;
+}
+nav li{
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 25px;
+    color: #77a466;
+    font-family: 'roboto', sans-serif;
+}
+/***** TOP SECTION *****/
+#top-section{
+    height:470px;
+    clear: both;
+}
+#top-section img{
+    border-top: solid 5px #77a466;
+    border-bottom: solid 5px #77a466;
+}
+#top-section h2 {
+    font-size: 18px;
+    color: #77a466;
+    line-height:23px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#top-section p{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    line-height: 25px;
+}
+/***** BOTTOM SECTION *****/
+.third-width{
+    width: 398px;
+    float: left;
+    height: 210px;
+    border-bottom: solid 1px #dedbdc;
+    border-top: solid 1px #dedbdc;
+    margin: 0;
+
+}
+#section-one, #section-two {
+    border-right: solid 1px #dedbdc;
+}
+#section-two h3, #section-three h3 {
+    padding-left: 30px;
+}
+h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px 0;
+    margin: 0;
+    font-weight: bold;
+}
+#section-one ul {
+    margin: 0;
+    padding-left: 0;
+}
+#section-one ul li{
+    text-decoration: none;
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+    line-height: 250%;
+}
+#section-two p {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    line-height: 21px;
+    width: 350px;
+    margin: 0 0;
+    padding-left: 30px;
+}
+#section-three p{
+    font-size: 16px;
+    margin: 0 auto;
+    padding-left: 30px;
+    line-height: 24px;
+    font-family: 'roboto', sans-serif;
+}
+/***** FOOTER *****/
+footer {
+    clear: both;
+    text-align: center;
+    height: 75px;
+}
+h4 {
+    margin: 0 auto; 
+    padding: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h4 span{
+    font-family: 'Cedarville Cursive', cursive;
+    color: #77a466;
+}
